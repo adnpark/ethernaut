@@ -1,1 +1,1 @@
-Unlock the vault to pass the level!
+이 레벨을 통과하고 싶다면 금고를 해제하세요!
