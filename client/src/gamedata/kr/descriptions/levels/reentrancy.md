@@ -1,9 +1,9 @@
-The goal of this level is for you to steal all the funds from the contract.
+이번 레벨의 목표는 컨트랙트의 돈을 모두 훔쳐가는거에요 
 
 &nbsp;
-Things that might help:
-* Untrusted contracts can execute code where you least expect it.
-* Fallback methods
-* Throw/revert bubbling
-* Sometimes the best way to attack a contract is with another contract.
-* See the Help page above, section "Beyond the console"
+도움이 될만한 것들이에요.
+* 신뢰할 수 없는 컨트랙트들은 여러분이 예상치도 못한 코드를 실행할 수 있어요.
+* Fallback 메서드
+* Throw/revert 버블링
+* 컨트랙트를 공격하는 가장 좋은 방법중 하나는 다른 컨트랙트를 이용하는거에요.
+* 상단 도움말 페이지의 "콘솔 밖으로" 섹션을 참고해보세요.
