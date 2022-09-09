@@ -1,5 +1,6 @@
-This elevator won't let you reach the top of your building. Right?
+이 엘리베이터는 건물의 꼭대기에 영원히 도달할 수 없어 보이네요! 정말로 그럴까요?
 
-##### Things that might help:
-* Sometimes solidity is not good at keeping promises.
-* This `Elevator` expects to be used from a `Building`.
+##### 도움이 될만한 것들이에요
+
+- 솔리디티는 약속을 잘지키는편은 아니에요.
+- 이 `Elevator` 컨트랙트는 `Building` 에서 사용될거에요.
