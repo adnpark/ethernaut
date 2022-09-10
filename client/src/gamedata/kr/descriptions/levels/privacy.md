@@ -1,11 +1,12 @@
-The creator of this contract was careful enough to protect the sensitive areas of its storage. 
+이 컨트랙트를 만든 개발자는 스토리지의 중요한 부분을 숨기기 위해 많은 공을 들였어요.
 
-Unlock this contract to beat the level.
+컨트랙트의 잠금을 해제하는것이 이번 레벨의 목표에요.
 
-Things that might help:
-* Understanding how storage works
-* Understanding how parameter parsing works
-* Understanding how casting works
+도움이 될만한 것들이에요:
 
-Tips:
-* Remember that metamask is just a commodity. Use another tool if it is presenting problems. Advanced gameplay could involve using remix, or your own web3 provider.
+- 스토리지가 어떻게 구성되는지 알아보세요.
+- 매개변수 파싱(parsing)이 어떻게 동작하는지 살펴보세요.
+- 타입 캐스팅(casting)이 어떻게 이뤄지는지 알아보세요.
+
+힌트:
+메타마스크는 많은 도구중 하나일 뿐이라는점을 명심하세요. 문제를 해결하기 위해 얼마든지 다른 도구를 사용할 수 있어요. remix를 활용하거나 자체 web3 provider등을 활용해서 게임을 즐겨보세요.

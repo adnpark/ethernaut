@@ -1,3 +1,3 @@
-Nothing in the ethereum blockchain is private. The keyword private is merely an artificial construct of the Solidity language. Web3's `getStorageAt(...)` can be used to read anything from storage. It can be tricky to read what you want though, since several optimization rules and techniques are used to compact the storage as much as possible.
+이더리움 블록체인에서 비밀이란 없어요. private 이라는 키워드는 단지 솔리디티 언어의 개념일 뿐 정말로 값이 숨겨진다는것을 의미하는건 아니에요. Web3의 `getStorageAt(...)` 메서드를 이용하면 모든 스토리지의 값을 읽을 수 있어요. 물론 스토리지를 효율적으로 관리하기위해 여러가지 최적화 방식이 적용되었기 때문에, 여러분이 원하는 값을 찾고 읽는것이 쉽지 않을수는 있지만요.
 
-It can't get much more complicated than what was exposed in this level. For more, check out this excellent article by "Darius": [How to read Ethereum contract storage](https://medium.com/aigang-network/how-to-read-ethereum-contract-storage-44252c8af925) 
+이 레벨에서 다루는 수준보다 훨씬 더 복잡한 수준은 아니니 걱정 마세요. 더 자세한 내용을 알고 싶다면 Darius의 좋은 글 [이더리움 컨트랙트 스토리지를 읽는 방법](https://medium.com/aigang-network/how-to-read-ethereum-contract-storage-44252c8af925)을 확인해보세요.
