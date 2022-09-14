@@ -1,12 +1,15 @@
-Overflows are very common in solidity and must be checked for with control statements such as:
+솔리디티에서 오버플로(Overflow)는 매우 흔하게 발생하므로, 반드시 아래와 같은 조건문을 통해서 오버플로를 체크해야해요.
+
 ```
 if(a + c > a) {
   a = a + c;
 }
 ```
 
-An easier alternative is to use OpenZeppelin's SafeMath library that automatically checks for overflows in all the mathematical operators. The resulting code looks like this:
+더 쉬운 방법은 오픈제플린의 SafeMath 라이브러리를 활용하는거에요. SafeMath 라이브러리는 모든 산술 연산에서 자동으로 오버플로를 체크해요. 아래와 같이 간단하게 코드를 작성할 수 있어요:
+
 ```
 a = a.add(c);
-``` 
-If there is an overflow, the code will revert.
+```
+
+만약 오버플로가 발생한다면 코드의 실행은 중단될거에요.

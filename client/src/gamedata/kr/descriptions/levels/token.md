@@ -1,7 +1,8 @@
-The goal of this level is for you to hack the basic token contract below.
+이번 레벨의 목표는 아래의 아주 단순한 토큰 컨트랙트를 해킹하는거에요.
 
-You are given 20 tokens to start with and you will beat the level if you somehow manage to get your hands on any additional tokens. Preferably a very large amount of tokens.
+여러분에게는 20개의 토큰이 주어지며, 20개 보다 많은 토큰을 가질 수 있게 되면 이 레벨을 통과할 수 있어요. 가능하면 아주 많은 양의 토큰이면 더 좋겠네요.
 
 &nbsp;
-Things that might help:
-* What is an odometer?
+도움이 될만한 것들이에요:
+
+- 주행 거리계(odometer)란 무엇일까요?
