@@ -1,7 +1,8 @@
-The goal of this level is for you to claim ownership of the instance you are given.
+이번 레벨의 목표는 주어진 인스턴스 컨트랙트의 소유권을 가져오는거에요.
 
 &nbsp;
-Things that might help
-* Look into Solidity's documentation on the `delegatecall` low level function, how it works, how it can be used to delegate operations to on-chain libraries, and what implications it has on execution scope.
-* Fallback methods
-* Method ids
+도움이 될만한 것들이에요
+
+- 솔리디티 문서에서 저수준(low level) 함수인 `delegatecall` 에 대해 탐색해보세요. `delegatecall`이 어떻게 작동하는지, 온체인 라이브러리에 작업을 위임하는데 어떻게 사용될 수 있는지, 실행 환경에 어떤 차이가 있는지 등에 대해 학습해보세요.
+- Fallback 메서드
+- 메서드 식별자(Method Ids)
