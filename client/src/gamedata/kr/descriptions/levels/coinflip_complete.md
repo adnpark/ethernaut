@@ -1,6 +1,5 @@
-Generating random numbers in solidity can be tricky. There currently isn't a native way to generate them, and everything you use in smart contracts is publicly visible, including the local variables and state variables marked as private. Miners also have control over things like blockhashes, timestamps, and whether to include certain transactions - which allows them to bias these values in their favor. 
+솔리디티에서 난수를 생성하는것은 상당히 까다롭답니다. 현재는 언어 자체적으로 난수를 생성할 수 있는 방법은 없어요. 지역 변수, private으로 선언된 상태 변수들을 포함한 스마트 컨트랙트의 모든것들은 모두에게 공개되기 때문이에요. 마이너들은 블록 해시, 타임스탬프, 그리고 심지어 어떤 트랜잭션을 포함할지 말지에 대한 여부까지 모두 결정할 수 있어요. 이를 통해 마이너들은 자신들에게 유리한 쪽으로 값을 제어할 수 있어요.
 
-To get cryptographically proven random numbers, you can use [Chainlink VRF](https://docs.chain.link/docs/get-a-random-number), which uses an oracle, the LINK token, and an on-chain contract to verify that the number is truly random. 
+암호학적으로 증명된 난수를 얻기 위해서는 체인링크의 VRF를 사용할 수 있어요. [체인링크의 VRF](<(https://docs.chain.link/docs/get-a-random-number)>)는 오라클과 LINK토큰을 활용하여 온체인 컨트랙트에서 해당 숫자값이 정말로 랜덤하게 생성되었는지를 검증할 수 있게 해줘요.
 
-Some other options include using Bitcoin block headers (verified through [BTC Relay](http://btcrelay.org)), [RANDAO](https://github.com/randao/randao), or [Oraclize](http://www.oraclize.it/)).
-
+또 다른 방법으로는 [BTC Relay](http://btcrelay.org)를 통해서 검증된 비트코인 블록 헤더를 활용하거나, [RANDAO](https://github.com/randao/randao), or [Oraclize](http://www.oraclize.it/)) 등을 활용할 수 있어요.

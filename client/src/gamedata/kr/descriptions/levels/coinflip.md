@@ -1,5 +1,6 @@
-This is a coin flipping game where you need to build up your winning streak by guessing the outcome of a coin flip. To complete this level you'll need to use your psychic abilities to guess the correct outcome 10 times in a row.
+이번 게임은 동전을 던져 나온 결과를 연속해서 맞춰야 하는 간단한 동전 던지기 게임이에요. 이번 레벨을 통과하려면 여러분은 동전 던지기 게임의 결과를 10번 연속으로 맞출 수 있는 초능력이 필요할거에요.
 
 &nbsp;
-Things that might help
-* See the Help page above, section "Beyond the console"
+도움이 될만한 것들이에요
+
+- 상단 도움말 페이지의 "콘솔 밖으로" 섹션을 참고해보세요.
